@@ -42,17 +42,10 @@ using System.Runtime.CompilerServices;
 [assembly: AssemblyKeyFile(@"..\..\Nini.key")]
 #endif
 
-[assembly: System.Reflection.AssemblyVersion("1.1.0.0")]
+[assembly: System.Reflection.AssemblyVersion("1.2.4.0")]
 
 [assembly:CLSCompliant(true)] // Required for CLS compliance
 
 // Mark as false by default and explicity set others as true
 [assembly:ComVisible(false)]
 
-// Permview attributes
-#if (NET_COMPACT_1_0)
-#else
-[assembly:IsolatedStorageFilePermission(SecurityAction.RequestMinimum)]
-[assembly:SecurityPermission(SecurityAction.RequestRefuse)]
-[assembly:FileIOPermission(SecurityAction.RequestMinimum)]
-#endif

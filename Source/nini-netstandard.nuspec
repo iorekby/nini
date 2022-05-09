@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<package>
+    <metadata>
+        <id>Nini.Netstandard</id>
+        <version>$version$</version>
+        <authors>Jantar d.o.o.</authors>
+        <description>Jantar SDK library for .NET</description>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+	    <dependencies>
+            <group targetFramework=".NETStandard2.0" />
+        </dependencies>
+    </metadata>
+    <files>
+        <!-- netstandard2.0 -->
+        <file src="../Bin/DotNet/1.0/Release/netstandard2.0/Nini.dll" target="lib/netstandard2.0/Nini.dll" />
+    </files>
+</package>
